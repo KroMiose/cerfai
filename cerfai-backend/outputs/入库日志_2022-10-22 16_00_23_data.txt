@@ -1,0 +1,83 @@
+[2022-10-22 16:00:23] 正在更新词条 aaeru 译名为 阿艾尔
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿艾尔', `desc` = '', `contributor` = '好好怪,', `c_id` = 2602, `remarks` = '出自动漫《西蒙》', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=aaeru' WHERE `id` = 258;
+[2022-10-22 16:00:23] 正在更新词条 abandon ranka 译名为 ???????蘭花
+=>  sql: UPDATE `ct_tags` SET `t_name` = '???????蘭花', `desc` = '', `contributor` = '好好怪,', `c_id` = 2501, `remarks` = '画师', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=abandon_ranka' WHERE `id` = 269;
+[2022-10-22 16:00:23] 正在更新词条 aardwolf (kemono friends) 译名为 土狼(兽娘动物园)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '土狼(兽娘动物园)', `desc` = '', `contributor` = '好好怪,', `c_id` = 2607, `remarks` = '出自动漫《兽娘动物园》', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=aardwolf_(kemono_friends)' WHERE `id` = 263;
+[2022-10-22 16:00:23] 正在更新词条 abara heiki 译名为 あばら へいき
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'あばら へいき', `desc` = '', `contributor` = '好好怪,', `c_id` = 2501, `remarks` = '画师', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=abara_heiki' WHERE `id` = 271;
+[2022-10-22 16:00:23] 正在更新词条 abarai renji 译名为 阿散井恋次
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿散井恋次', `desc` = '', `contributor` = '好好怪,', `c_id` = 2602, `remarks` = '出自漫画《死神》', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=Abarai_Renji' WHERE `id` = 272;
+[2022-10-22 16:00:23] 正在更新词条 abbystea 译名为 abbystea
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'abbystea', `desc` = '', `contributor` = '好好怪,', `c_id` = 2501, `remarks` = '推特id', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=abbystea' WHERE `id` = 277;
+[2022-10-22 16:00:23] 正在更新词条 abe suke 译名为 abe suke
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'abe suke', `desc` = '', `contributor` = '好好怪,', `c_id` = 2501, `remarks` = '画师', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=abe_suke' WHERE `id` = 281;
+[2022-10-22 16:00:23] 正在更新词条 abe takakazu 译名为 阿部高和
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿部高和', `desc` = '', `contributor` = '好好怪,', `c_id` = 2602, `remarks` = '出自漫画《くそみそ?????》', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=abe_takakazu' WHERE `id` = 282;
+[2022-10-22 16:00:23] 正在更新词条 abenobashi mahou shoutengai 译名为 动漫《阿倍野桥商店街》
+=>  sql: UPDATE `ct_tags` SET `t_name` = '动漫《阿倍野桥商店街》', `desc` = '', `contributor` = '好好怪,', `c_id` = 2601, `remarks` = '', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=abenobashi_mahou_shoutengai' WHERE `id` = 286;
+[2022-10-22 16:00:23] 正在更新词条 abigail williams (swimsuit foreigner) (first ascension) (fate) 译名为 阿比盖尔·威廉姆斯(泳装降临者)(一破)(fate)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿比盖尔·威廉姆斯(泳装降临者)(一破)(fate)', `desc` = '', `contributor` = '好好怪,', `c_id` = 2606, `remarks` = '出自FGO', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=abigail_williams_(swimsuit_foreigner)_(first_ascension)_(fate)' WHERE `id` = 292;
+[2022-10-22 16:00:23] 正在更新词条 abigail williams (swimsuit foreigner) (third ascension) (fate) 译名为 阿比盖尔·威廉姆斯(泳装降临者)(三破)(fate)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿比盖尔·威廉姆斯(泳装降临者)(三破)(fate)', `desc` = '', `contributor` = '好好怪,', `c_id` = 2606, `remarks` = '出自FGO', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=abigail_williams_(swimsuit_foreigner)_(third_ascension)_(fate)' WHERE `id` = 293;
+[2022-10-22 16:00:23] 正在更新词条 abmayo 译名为 abmayo
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'abmayo', `desc` = '', `contributor` = '好好怪,', `c_id` = 2501, `remarks` = '画师', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=abmayo' WHERE `id` = 297;
+[2022-10-22 16:00:23] 正在更新词条 abomasnow 译名为 暴雪王
+=>  sql: UPDATE `ct_tags` SET `t_name` = '暴雪王', `desc` = '', `contributor` = '好好怪,', `c_id` = 2708, `remarks` = '出自精灵宝可梦', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=abomasnow' WHERE `id` = 300;
+[2022-10-22 16:00:23] 正在更新词条 abra 译名为 凯西
+=>  sql: UPDATE `ct_tags` SET `t_name` = '凯西', `desc` = '', `contributor` = '好好怪,', `c_id` = 2708, `remarks` = '出自精灵宝可梦', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=abra' WHERE `id` = 302;
+[2022-10-22 16:00:23] 正在更新词条 absinthe (arknights) 译名为 苦艾
+=>  sql: UPDATE `ct_tags` SET `t_name` = '苦艾', `desc` = '', `contributor` = '好好怪,', `c_id` = 2710, `remarks` = '出自明日方舟', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=absinthe_(arknights)' WHERE `id` = 304;
+[2022-10-22 16:00:23] 正在更新词条 abukuma (kancolle) 译名为 阿武隈号(舰队收藏)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿武隈号(舰队收藏)', `desc` = '', `contributor` = '好好怪,', `c_id` = 2709, `remarks` = '出自舰队收藏', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=abukuma_(kancolle)' WHERE `id` = 317;
+[2022-10-22 16:00:23] 正在更新词条 abukuma kai ni (kancolle) 译名为 阿武隈号改(舰队收藏)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿武隈号改(舰队收藏)', `desc` = '', `contributor` = '好好怪,', `c_id` = 2709, `remarks` = '出自舰队收藏', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=abukuma_kai_ni_(kancolle)' WHERE `id` = 318;
+[2022-10-22 16:00:23] 正在更新词条 accelerator (toaru majutsu no index) 译名为 一方通行《魔法禁书目录》
+=>  sql: UPDATE `ct_tags` SET `t_name` = '一方通行《魔法禁书目录》', `desc` = '', `contributor` = '好好怪,', `c_id` = 2698, `remarks` = '出自动漫《魔法禁书目录》', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=accelerator_(toaru_majutsu_no_index)' WHERE `id` = 328;
+[2022-10-22 16:00:23] 正在更新词条 acubi tomaranai 译名为 acubi tomaranai
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'acubi tomaranai', `desc` = '', `contributor` = '好好怪,', `c_id` = 2501, `remarks` = '画师微博id', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=acubi_tomaranai' WHERE `id` = 372;
+[2022-10-22 16:00:23] 正在更新词条 adachi sakura 译名为 安达樱
+=>  sql: UPDATE `ct_tags` SET `t_name` = '安达樱', `desc` = '', `contributor` = '好好怪,', `c_id` = 2502, `remarks` = '出自小说《安达与岛村》', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=adachi_sakura' WHERE `id` = 375;
+[2022-10-22 16:00:23] 正在更新词条 adachi to shimamura 译名为 安达与岛村
+=>  sql: UPDATE `ct_tags` SET `t_name` = '安达与岛村', `desc` = '', `contributor` = '好好怪,', `c_id` = 2502, `remarks` = '', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=adachi_to_shimamura' WHERE `id` = 376;
+[2022-10-22 16:00:23] 正在更新词条 adagaki aki 译名为 安达恒爱姬
+=>  sql: UPDATE `ct_tags` SET `t_name` = '安达恒爱姬', `desc` = '', `contributor` = '好好怪,', `c_id` = 2602, `remarks` = '出自《政宗君的复仇》', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=adagaki_aki' WHERE `id` = 378;
+[2022-10-22 16:00:23] 正在更新词条 add (elsword) 译名为 艾迪
+=>  sql: UPDATE `ct_tags` SET `t_name` = '艾迪', `desc` = '', `contributor` = '好好怪,', `c_id` = 2797, `remarks` = '出自艾尔之光', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=add_(elsword)' WHERE `id` = 385;
+[2022-10-22 16:00:23] 正在更新词条 adelbert steiner 译名为 阿德尔伯特·斯坦纳
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿德尔伯特·斯坦纳', `desc` = '', `contributor` = '好好怪,', `c_id` = 2712, `remarks` = '出自最终幻想9', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=adelbert_steiner' WHERE `id` = 387;
+[2022-10-22 16:00:23] 正在更新词条 adeleine 译名为 阿朵莱尼
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿朵莱尼', `desc` = '', `contributor` = '好好怪,', `c_id` = 2796, `remarks` = '出自星之卡比', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=adeleine' WHERE `id` = 388;
+[2022-10-22 16:00:23] 正在更新词条 adepta sororitas 译名为 战斗修女
+=>  sql: UPDATE `ct_tags` SET `t_name` = '战斗修女', `desc` = '', `contributor` = '好好怪,', `c_id` = 2797, `remarks` = '出自战锤', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=adepta_sororitas' WHERE `id` = 390;
+[2022-10-22 16:00:23] 正在更新词条 adiane 译名为 流丽之阿蒂涅
+=>  sql: UPDATE `ct_tags` SET `t_name` = '流丽之阿蒂涅', `desc` = '', `contributor` = '好好怪,', `c_id` = 2602, `remarks` = '出自天元突破', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=adiane' WHERE `id` = 392;
+[2022-10-22 16:00:23] 正在更新词条 admiral graf spee (peaceful daily life) (azur lane) 译名为 斯佩伯爵海军上将(平稳的日常)(碧蓝航线)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '斯佩伯爵海军上将(平稳的日常)(碧蓝航线)', `desc` = '', `contributor` = '好好怪,', `c_id` = 2703, `remarks` = '出自碧蓝航线', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=admiral_graf_spee_(peaceful_daily_life)_(azur_lane)' WHERE `id` = 413;
+[2022-10-22 16:00:23] 正在更新词条 admiral hipper (azur lane) 译名为 西贝尔海军上将(碧蓝航线)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '西贝尔海军上将(碧蓝航线)', `desc` = '', `contributor` = '好好怪,', `c_id` = 2703, `remarks` = '出自碧蓝航线', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=admiral_hipper_(azur_lane)' WHERE `id` = 414;
+[2022-10-22 16:00:23] 正在更新词条 admiral paru 译名为 admiral paru
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'admiral paru', `desc` = '', `contributor` = '好好怪,', `c_id` = 2501, `remarks` = '画师', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=admiral_paru' WHERE `id` = 415;
+[2022-10-22 16:00:23] 正在更新词条 admire vega (umamusume) 译名为 爱慕织姬(赛马娘)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '爱慕织姬(赛马娘)', `desc` = '', `contributor` = '好好怪,', `c_id` = 2716, `remarks` = '出自赛马娘', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=admire_vega_(umamusume)' WHERE `id` = 418;
+[2022-10-22 16:00:23] 正在更新词条 aegir (housamo) 译名为 艾吉尔(东京放学后)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '艾吉尔(东京放学后)', `desc` = '', `contributor` = '好好怪,', `c_id` = 2602, `remarks` = '出自东京放学后', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=aegir_(housamo)' WHERE `id` = 432;
+[2022-10-22 16:00:23] 正在更新词条 agano (kancolle) 译名为 阿贺野号(舰队收藏)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿贺野号(舰队收藏)', `desc` = '', `contributor` = '好好怪,', `c_id` = 2709, `remarks` = '出自舰队收藏', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=agano_(kancolle)' WHERE `id` = 494;
+[2022-10-22 16:00:23] 正在更新词条 agnes tachyon (umamusume) 译名为 爱丽速子(赛马娘)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '爱丽速子(赛马娘)', `desc` = '', `contributor` = '好好怪,', `c_id` = 2716, `remarks` = '出自赛马娘', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=agnes_tachyon_(umamusume)' WHERE `id` = 521;
+[2022-10-22 16:00:23] 正在更新词条 agonasubi 译名为 agonasubi_m01
+=>  sql: UPDATE `ct_tags` SET `t_name` = 'agonasubi_m01', `desc` = '', `contributor` = '好好怪,', `c_id` = 2501, `remarks` = '画师', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=agonasubi' WHERE `id` = 522;
+[2022-10-22 16:00:24] 正在更新词条 agrius metamorphosis 译名为 神罚的野猪
+=>  sql: UPDATE `ct_tags` SET `t_name` = '神罚的野猪', `desc` = '', `contributor` = '好好怪,', `c_id` = 2606, `remarks` = '出自FGO', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=agrius_metamorphosis' WHERE `id` = 526;
+[2022-10-22 16:00:24] 正在更新词条 ahagon umiko 译名为 阿波根海子
+=>  sql: UPDATE `ct_tags` SET `t_name` = '阿波根海子', `desc` = '', `contributor` = '好好怪,', `c_id` = 2602, `remarks` = '出自漫画《new game!》', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=ahagon_umiko' WHERE `id` = 529;
+[2022-10-22 16:00:24] 正在更新词条 ai-chan (honkai impact) 译名为 爱酱(崩坏3rd)
+=>  sql: UPDATE `ct_tags` SET `t_name` = '爱酱(崩坏3rd)', `desc` = '', `contributor` = '好好怪,', `c_id` = 2702, `remarks` = '出自崩坏三', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=ai-chan_(honkai_impact)' WHERE `id` = 541;
+[2022-10-22 16:00:24] 正在更新词条 aikatsu on parade! 译名为 偶像活动 on Parade!
+=>  sql: UPDATE `ct_tags` SET `t_name` = '偶像活动 on Parade!', `desc` = '', `contributor` = '好好怪,', `c_id` = 2601, `remarks` = '动漫', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=aikatsu_on_parade!' WHERE `id` = 563;
+[2022-10-22 16:00:24] 正在更新词条 aikatsu stars! 译名为 偶像活动stars!
+=>  sql: UPDATE `ct_tags` SET `t_name` = '偶像活动stars!', `desc` = '', `contributor` = '好好怪,', `c_id` = 2601, `remarks` = '动漫', `update_time = NOW(), update_times = 1, `remarks`= 'https://danbooru.donmai.us/posts?tags=aikatsu_stars!' WHERE `id` = 564;
+[2022-10-22 16:00:24] 词条入库完成，共检索到词条数量: 40，更新词条数: 40，耗时: 0.976393461227417
+
+
