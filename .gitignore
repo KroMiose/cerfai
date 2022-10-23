@@ -1,1 +1,3 @@
 cerfai-frontend/.editorconfig
+cerfai-frontend/.vscode/launch.json
+cerfai-frontend/node_modules/**

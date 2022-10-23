@@ -1,7 +1,6 @@
 <template>
   <div class="tableFilter">
     <el-popover placement="top" v-model="filterVisiable">
-
       <p class="ftitle">最后更新时间过滤:</p>
       <div v-if="showPanel.date_picker" class="row">
         <span>日期范围：</span>
