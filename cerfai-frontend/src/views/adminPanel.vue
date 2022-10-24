@@ -32,6 +32,7 @@
 import tagPanel from '@/components/tagPanel.vue'
 
 export default {
+  
   components: {tagPanel},
   data() {
     return {
@@ -67,11 +68,11 @@ export default {
       })
         .then((res) => {
           // console.log(res.data)
-          _this.categories = res.data.data
+          // _this.categories = res.data.data
           _this.up_cnt = res.data.up_cnt
-          _this.categories.forEach((v, i) => {
-            _this.categories[i].value = v.name
-          })
+          // _this.categories.forEach((v, i) => {
+          //   _this.categories[i].value = v.name
+          // })
           // _this.roll_tag()
           let cd = res.data.contributor
           let nlist = []
@@ -84,7 +85,8 @@ export default {
         .catch((err) => {
           console.log(err)
         })
-    },
+    },        
+
     openAccessInputer() {
       this.prompt_enable = true
       this.$prompt('请输入授权码', '提示', {
