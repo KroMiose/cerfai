@@ -19,7 +19,7 @@ database_settings = {
 contributor_update_delay = 60 * 60
 
 # 管理访问密钥
-access_key = '9a58459a6ec807b112933c8c676e295e'
+access_key = '9a58*************************295e'
 
 # 每次返回的数据条数最大限制
 max_ret_data_limit = 100
