@@ -161,16 +161,9 @@
           <el-descriptions-item span="2">
             <template slot="label">
               <i class="el-icon-s-comment"></i>
-              词条说明
+              词条分类
             </template>
-            <el-autocomplete
-              class="inline-input"
-              v-model="selRowData.c_name"
-              :fetch-suggestions="querySearch"
-              placeholder="可搜索词条分类"
-              @select="categoryHandleSelect"
-              clearable
-            ></el-autocomplete>
+            <category-selector :value="selRowData.c_id" @change="nv => selRowData.c_id =nv"></category-selector>
           </el-descriptions-item>
 
           <el-descriptions-item span="2">
@@ -222,9 +215,11 @@
 
 <script>
 import tableFilter from '@/components/tableFilter.vue'
+import categorySelector from '@/components/categorySelector.vue'
 
 export default {
-  components: {tableFilter},
+
+  components: { tableFilter, categorySelector },
   data() {
     return {
       search_keyword: '',
@@ -375,11 +370,11 @@ export default {
       })
         .then((res) => {
           // console.log(res.data)
-          _this.categories = res.data.data
+          // _this.categories = res.data.data
           _this.up_cnt = res.data.up_cnt
-          _this.categories.forEach((v, i) => {
-            _this.categories[i].value = v.name
-          })
+          // _this.categories.forEach((v, i) => {
+          //   _this.categories[i].value = v.name
+          // })
           let cd = res.data.contributor
           let nlist = []
           for(let key in cd){
@@ -387,10 +382,29 @@ export default {
             nlist.push({name: key, cnt: cd[key]})
           }
           _this.contributor_toplist = nlist
+          _this.get_categories_full()
         })
         .catch((err) => {
           console.log(err)
         })
+    },
+    //获取完整的分类列表
+    //TODO:该函数为过渡方案，等待替换
+    get_categories_full() {
+      let _this = this
+      // 获取categories列表
+      this.$http({
+        method: 'GET',
+        url: `${_this.$store.state.serverhost}/open/get_full_categories`,
+      }).then((res) => {
+        // console.log(res.data)
+        _this.categories = res.data.data
+        _this.$store.commit('setCategories', _this.categories)
+      })
+        .catch((err) => {
+          console.log(err)
+        })
+
     },
     // 获取分类名
     get_category_name(id) {
