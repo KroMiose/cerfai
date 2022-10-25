@@ -1,1 +1,4 @@
 cerfai-frontend/.editorconfig
+cerfai-frontend/dist/**
+cerfai-frontend/node_moduels/**
+cerfai-frontend/.vscode/**
