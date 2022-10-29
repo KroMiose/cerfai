@@ -6,8 +6,10 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     categories: [],
-    serverhost: 'http://tag.52dcr.cn:3090',
-    // serverhost: 'http://127.0.0.1:3090',
+    // serverhost: 'http://tag.52dcr.cn:3090', 
+    serverhost: 'http://127.0.0.1:3090',
+    // serverhost: 'http://tmp.kromiose.top:3090', 
+
     token: '',
   },
   getters: {

@@ -25,15 +25,6 @@
                     本站交流群：660612010
                 </div>
                 <div>参与贡献基本原则：在不破坏他人劳动成果的前提下，对词条原有信息做任何有效补充均可视为有效贡献</div>
-                <div>
-                    您所看到的所有词条内容来自 机器翻译/人工初筛/其他用户个人上传。
-                    欢迎对词条进行内容审核或者参与实际测试，并提供宝贵的建议。
-                    如果您认为该词条准确无误，请点击提交，将自动随机下一条标签。
-                    输入词条分类关键词，可以快速选择词条分类。
-                    如果该词条没有适合的分类，请输入并选择 “标签扩展” 并可在备注中描述新的分类，
-                    如果经多方测试，标签无效或者当前版本无效，请输入并选择“无效标签”
-                    如果您对当前标签没兴趣或者不需要进行修改，点击“换一个”更换词条。
-                </div>
 
             </div>
 
@@ -41,37 +32,40 @@
                 <!-- 贡献表单 -->
                 <el-row :gutter="10">
                     <el-col :xs="24" :sm="24" :md="18" :lg="16" :xl="16">
-                        <el-form ref="form" :model="form" label-width="100px">
-                            <el-form-item label="词条名：">
+                        <el-alert title="参与贡献说明" type="info"
+                         description="您所看到的所有词条内容来自机器翻译/人工初筛/其他用户个人上传，欢迎对词条进行内容审核或者参与实际测试并提供宝贵的建议。如果您认为该词条准确无误，请点击提交，将自动随机下一条标签；输入词条分类关键词，可以快速选择词条分类。如果该词条没有适合的分类，请输入并选择 “标签扩展” 并可在备注中描述新的分类。如果经多方测试，标签无效或者当前版本无效，请输入并选择“无效标签”。如果您对当前标签没兴趣或者不需要进行修改，点击“换一个”更换词条。" show-icon>
+                        </el-alert>
+                        <el-form ref="form" :model="form" :rules="form_rule" label-width="100px">
+                            <el-form-item label="词条名：" prop="name">
                                 <div class="row">
                                     <el-input v-model="form.name" disabled></el-input>
                                     <el-button type="primary" v-clipboard:copy="form.name" v-clipboard:success="onCopy"
                                         v-clipboard:error="onError">复制词条名</el-button>
                                 </div>
                             </el-form-item>
-                            <el-form-item label="词条译名：">
+                            <el-form-item label="词条译名：" prop="t_name">
                                 <el-input v-model="form.t_name"></el-input>
                             </el-form-item>
-                            <el-form-item label="词条分类：">
+                            <el-form-item label="词条分类：" prop="c_id">
                                 <category-selector :value="form.c_id" @change="nv => form.c_id = nv">
                                 </category-selector>
                             </el-form-item>
-                            <el-form-item label="是否NSFW：">
+                            <el-form-item label="是否NSFW：" prop="is_nsfw">
                                 <el-switch v-model="form.is_nsfw"></el-switch>
                                 <span class="nsfw-span" style="color: #e66"
                                     v-show="form.is_nsfw">这是一个包含工作场所不宜内容的词条</span>
                                 <span class="nsfw-span" v-show="!form.is_nsfw">这是一个任何场所安全的词条</span>
                             </el-form-item>
-                            <el-form-item label="词条说明：">
+                            <el-form-item label="词条说明：" prop="desc">
                                 <el-input type="textarea" v-model="form.desc" placeholder="请输入词条说明信息，作为该词条的使用参考或者效果">
                                 </el-input>
                             </el-form-item>
-                            <el-form-item label="备注信息：">
+                            <el-form-item label="备注信息：" prop="remarks">
                                 <el-input type="textarea" v-model="form.remarks"
                                     placeholder="请输入备注信息，可包含该词条信息依据的参考资料链接">
                                 </el-input>
                             </el-form-item>
-                            <el-form-item label="贡献者：">
+                            <el-form-item label="贡献者：" prop="contributor">
                                 <el-input v-model="form.contributor" minlength="1"
                                     placeholder="请留下您的用户名或昵称，以便我们记录贡献者，多位贡献者请用英文逗号分隔"></el-input>
                             </el-form-item>
@@ -192,6 +186,9 @@ export default {
                 remarks: '',
                 contributor: '',
             },
+            form_rule: {
+                contributor: [{ required: true }]
+            },
             categories: [],
             activeNames: ['1'],
             up_cnt: '获取中...',
@@ -271,6 +268,20 @@ export default {
         },
         // 搜索tag
         search() {
+            if (/^\s$/.test(this.searchHis)){
+                this.$message({ type: 'error', message: "搜索词为空", duration: 2000 })
+                return;
+            }
+            for (let i = 0; i < this.searchHis.length; i++) {
+                if (this.searchHis[i].w == this.search_keyword) {
+                    for (let j = i - 1; j >= 0; j--) {
+                        this.searchHis[j + 1] = this.searchHis[j];
+                        this.searchHis[j + 1].i--;
+                    }
+                    this.searchHis.shift();
+                    break;
+                }
+            }
             this.searchHis.unshift({ w: this.search_keyword, i: this.searchHis.length })
             localStorage.searchHis = JSON.stringify(this.searchHis)
             let _this = this

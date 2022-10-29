@@ -20,7 +20,7 @@ export default{
         }
     },computed:{
         real_height(){
-            return Math.min((document.body.offsetWidth*0.6),this.height)+"px"
+            return this.height+"px"
         }
     }
 }

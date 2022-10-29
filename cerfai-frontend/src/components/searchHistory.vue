@@ -5,7 +5,7 @@
         </el-col>
         <el-col :span="21">
             <div class="histories" :class="{ lh: extended }">
-                <el-tag class="history-block" v-for="{w,i} in datas" @click="$emit('select', $event.target.innerHTML)" :key="i">{{ w }}
+                <el-tag class="history-block" v-for="{w,i} in datas" @click="$emit('select', $event.target.getAttribute('data-history-data'))" :data-history-data="w" :key="i">{{ w }}
                 </el-tag>
             </div>
         </el-col>
@@ -36,10 +36,10 @@ export default {
                 confirmButtonText: '确定',
                 cancelButtonText: '取消',
                 type: 'warning',
-                callback: action => {
-                    _this.$emit('clear')
-                }
-            });
+                
+            }).then(() => {
+                _this.$emit('clear')
+            }).catch(()=>{});
         }
     }
 }
