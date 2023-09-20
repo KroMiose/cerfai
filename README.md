@@ -7,3 +7,8 @@ CERF-AI词条贡献站开源仓库（线上地址:https://www.cerfai.com）
 ## 存档文件
 - [共享站词条数据表](https://github.com/KroMiose/cerfai/blob/main/categories_202309100105.csv)
 - [共享站词条类型表](https://github.com/KroMiose/cerfai/blob/main/categories_202309100105.csv)
+
+## 存档仓库
+
+- [最新的共享站后端系统(已开源)](https://github.com/KroMiose/cerfai-backend)
+- [最新的共享站前端系统(已开源)](https://github.com/KroMiose/cerfai-frontend)
